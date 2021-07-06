@@ -1,8 +1,8 @@
-# Regresión logística que predice la aprobación de un alumno
+# Regresión logística con variables ampliadas para predecir la aprobación de un alumno universitario 
 
 Autores: Fernandez, Laura. Sandoval, Cristhian
 
-El objetivo del presente trabajo es el desarrollo de un modelo de Regresión Logística que intente predecir las etiquetas de Aprobado (1) / Desaprobado (0) de un alumno en un contexto universitario, en base a tres variables continuas que consisten en la calificación del primer parcial, la calificación del segundo parcial y la nota de un trabajo final integrador. Siendo el rango numérico de estos tres valores la escala numérica de [0, 10].
+El objetivo del presente trabajo es el desarrollo de un modelo de Regresión Logística que intente predecir las etiquetas de Aprobado (1) / Desaprobado (0) de un alumno en un contexto universitario, en base a 14 variables continuas que se ampliaron a las 3 ultimas consideradas y consisten en el sexo del estudiante 1 (Masculino) / 0 (Femenino), 10 trabajos prácticos, la calificación del primer parcial, la calificación del segundo parcial y la nota de un trabajo final integrador. Siendo el rango numérico de las calificaciones la escala numérica de [0, 10].
 
 ## Uso de Python
 
@@ -36,13 +36,13 @@ Una vez instalado Python podemos ver la versión exacta ejecutando el siguiente 
 python3.9 -V
 ```
 
-## Instalación de las librerias necesarias
+## Instalación de las librerías necesarias
 
-Python utiliza una serie de liberías que extienden su funcionalidad en una amplia gama de aplicaciones. Para el presente aprendizaje automàtico particularmente, utiliza tres librerías Pandas, NumPy, Matplotlib y Scikit Learn, que permitirán calcular, visualizar los gráficos y realizar el aprendizaje, respectivamente.
+Python utiliza una serie de librerías que extienden su funcionalidad en una amplia gama de aplicaciones. Para el presente aprendizaje automàtico particularmente, utiliza tres librerías Pandas, NumPy, Matplotlib y Scikit Learn, que permitirán calcular, visualizar los gráficos y realizar el aprendizaje, respectivamente.
 
 ```
 pip3 install numpy
-pip3 install scikit-learn
+pip3 install sklearn
 pip3 install matplotlib
 pip3 install pandas
 o
@@ -64,12 +64,12 @@ sudo apt-get install git
 
 ## Ejecutar el proyecto
 
-Para ejecutar el proyecto hay que posicionarse sobre una carpeta y abrir una consola de comandos **Windows** se realiza **Mantener Shift y clic derecho** seleccionando la opción **Abrir consola de ccomandos aquí** y en linux **Clic derecho. Acciones. Abrir terminal aquí** seguiemdo la secuencia de comandos siguiente:
+Para ejecutar el proyecto hay que posicionarse sobre una carpeta y abrir una consola de comandos **Windows** se realiza **Mantener Shift y clic derecho** seleccionando la opción **Abrir consola de comandos aquí** y en linux **Clic derecho. Acciones. Abrir terminal aquí** siguiendo la secuencia de comandos siguiente:
 
 ```
 git clone https://github.com/cristhiansandoval/regresion_logistica_aprobacion.git
 cd regresion_logistica_aprobacion
-python3.9 regresion_logistica_aprobacion.py
+python3 regresion_logistica_aprobacion.py
 ```
 
 ## Referencias y más información
