@@ -1,8 +1,8 @@
-# Regresión logística con variables ampliadas para predecir la aprobación de un alumno universitario 
+# Entrenamiento de diferentes modelos de clasificación con variables ampliadas para predecir la aprobación de un alumno universitario 
 
 Autores: Fernandez, Laura. Sandoval, Cristhian
 
-El objetivo del presente trabajo es el desarrollo de un modelo de Regresión Logística que intente predecir las etiquetas de Aprobado (1) / Desaprobado (0) de un alumno en un contexto universitario, en base a 14 variables continuas que se ampliaron a las 3 ultimas consideradas y consisten en el sexo del estudiante 1 (Masculino) / 0 (Femenino), 10 trabajos prácticos, la calificación del primer parcial, la calificación del segundo parcial y la nota de un trabajo final integrador. Siendo el rango numérico de las calificaciones la escala numérica de [0, 10].
+El objetivo del presente trabajo es el desarrollo de diferentes modelos de clasificación que intenten predecir las etiquetas de Aprobado (1) / Desaprobado (0) de un alumno en un contexto universitario, en base a 14 variables continuas que se ampliaron a las 3 ultimas consideradas y consisten en el sexo del estudiante 1 (Masculino) / 0 (Femenino), 10 trabajos prácticos, la calificación del primer parcial, la calificación del segundo parcial y la nota de un trabajo final integrador. Siendo el rango numérico de las calificaciones la escala numérica de [0, 10].
 
 ## Uso de Python
 
